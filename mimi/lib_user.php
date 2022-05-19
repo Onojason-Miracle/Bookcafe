@@ -31,7 +31,7 @@
 				}
 		
 
-			function signup($fname, $lname, $email, $pswd, $phone, $address){
+			function signup($fname, $lname, $email, $pswd, $phone, $address, $confirm){
 				//hash password and confirm password
 				$password = password_hash($pswd, PASSWORD_DEFAULT);
 				//$confirm_password = password_hash($cpswd, PASSWORD_DEFAULT);

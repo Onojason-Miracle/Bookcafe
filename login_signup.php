@@ -184,9 +184,11 @@ $email=strip_tags(trim($_POST['email']));
 $password=strip_tags(trim($_POST['password']));
 $phone=strip_tags(trim($_POST['phone_number']));
 $address=strip_tags(trim($_POST['address']));
+$confirm=strip_tags(trim($_POST['confirm_password']));
  //var_dump($_POST);
 	$obj=new User;
-	$output=$obj->signup($fname, $lname, $email, $password, $phone, $address);
+	if ($confirm == $password) {
+		$output=$obj->signup($fname, $lname, $email, $password, $phone, $address, $confirm);
 	if($output==true){
 	//	echo "Successful Signup";
 echo "<div class='alert alert-success'>Registration Successful Now Proceed to <a href='login.php' class='btn btn-info'>Login</a></div>";
@@ -196,8 +198,12 @@ echo "<div class='alert alert-success'>Registration Successful Now Proceed to <a
 		echo"Sorry could not sign you up, try again";
 	}
 
+}else{
+	echo "password do not match!";
 }
 
+	}
+	
 
 
 ?>
