@@ -42,16 +42,16 @@ background-color: white;
 <body>
 <div class="container-fluid" style="position:relative;">
   <!--the upper div with social media icons-->
-  <div  class="row  mb-0"  style="background-color: #0dcaf0; color: black; width: 100%;" id="searchbtn">
+  <div  class="row  mb-0 "  style="background-color: #0dcaf0; color: black;" id="searchbtn">
 
-    <div class="col-md-3 mt-2"><i class="fa fa-calendar" aria-hidden="true"></i>
+    <div class="col-md-3 mt-2 "><i class="fa fa-calendar" aria-hidden="true"></i>
     <?php 
         echo date("l,jS F, Y");
 
        ?>
     
     </div>
- <div class="col-md-2 offset-md-7  icondiv">
+ <div class="col-md-2 offset-md-7 icondiv">
   <p>
       <a href="" style="color:black" class="ms-5 "><i class="fa fa-twitter"></i></a>
   
