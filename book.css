@@ -33,13 +33,33 @@ body {
 }
 
 
-/*@media (max-width: 750px) {
-    #background-video { display: none; }
+@media (max-width: 750px) {
+    /* #background-video { display: none; }
     body {
       background: url("images/pple.jpg") no-repeat;
       background-size: cover;
-    }
-}*/
+    } */
+	.writeup {
+ 
+		margin-top: 0; 
+	
+		height: 40vh;
+		
+	  }
+	  #storyheader{
+		  text-align: center;
+	  }
+	  .responsive-ifram{
+  
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100vh;
+		height: 100%;
+	  }
+	  
+	  
+}
 
 .main {
  background-color: rgba(0, 0, 0, 0.6);
@@ -49,6 +69,14 @@ body {
   position: relative;
 }
 
+.signup_main {
+	background-color: rgba(0, 0, 0, 0.6);
+	 font-size: 2rem;
+	 margin-top: 4vh;
+	 
+	 position: relative;
+   }
+   
 
 .writeup {
  
@@ -96,9 +124,8 @@ body {
 }
 
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
+.responsive-ifram{
+  
   left: 0;
   bottom: 0;
   right: 0;

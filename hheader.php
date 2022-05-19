@@ -53,11 +53,11 @@ background-color: white;
     </div>
  <div class="col-md-2 offset-md-7 icondiv">
   <p>
-      <a href="" style="color:black" class="ms-5 "><i class="fa fa-twitter"></i></a>
+      <a href="" style="color:black" class="ms-md-5 "><i class="fa fa-twitter"></i></a>
   
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-instagram"></i></a>
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-linkedin"></i></a>
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-facebook"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-instagram"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-linkedin"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-facebook"></i></a>
     </p>
     </div>
 

@@ -45,7 +45,7 @@
   
 <div class="row " style="background-color:white; color:black; display:flex; justify-content:space-around">
   
-  <div class="col-md-4 mt-5 " >
+  <div class="col-md-4 mt-5 responsive-iframe" >
    
   <div class="col-md-2">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9512926218995!2d7.508898414734864!3d9.068202093493696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bccd4d3458d%3A0x73f696e798b1e997!2sNational%20Assembly!5e0!3m2!1sen!2sng!4v1648775915965!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -148,8 +148,13 @@
   </div>
 
   <div class="col-md-4">
-      <h1 class="mt-md-5 pbutton">Our Story</h1>
-      <p>The fact that libraries are open is of huge importance to the history of libraries, as it has forged a great role for libraries to help the general public access vital information—from medicine and science to public affairs and literary arts. Moreover, these libraries serve a critical function of connecting to other libraries. The fact that libraries are open is of huge importance to the history of libraries, as it has forged a great role for libraries to help the general public access vital information—from medicine and science to public affairs and literary arts. Moreover, these libraries serve a critical function of connecting to other libraries.</p>
+      <h1 class="mt-md-5" id = "storyheader">Our Story</h1>
+      <p class = "mx-3">The fact that libraries are open is of huge importance to the history of libraries, as it has forged a great role for
+        libraries to help the general public access vital information—from medicine and science to public affairs and literary arts.
+        Moreover, these libraries serve a critical function of connecting to other libraries. The fact that libraries are open is of
+        huge importance to the history of libraries, as it has forged a great role for libraries to help the general public access
+        vital information—from medicine and science to public affairs and literary arts. Moreover, these libraries serve a critical
+        function of connecting to other libraries.</p>
     </div>
    
 

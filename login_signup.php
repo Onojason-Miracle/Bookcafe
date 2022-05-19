@@ -81,9 +81,9 @@ background-color: white;
   <p>
       <a href="" style="color:black" class="ms-md-5 "><i class="fa fa-twitter"></i></a>
   
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-instagram"></i></a>
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-linkedin"></i></a>
-      <a href="" style="color:black"class="ms-2 "><i class="fa fa-facebook"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-instagram"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-linkedin"></i></a>
+      <a href="" style="color:black"class="ms-md-2 "><i class="fa fa-facebook"></i></a>
     </p>
     </div>
 
@@ -142,7 +142,7 @@ background-color: white;
 </header>
 </div>
 </div>
-<div class=" col-md-12 main">
+<div class=" col-md-12 signup_main">
 
   
     <h1 class="card-title animate__animated animate__bounce text-info pbutton mt-3">This Is Bookcafe</h1>
